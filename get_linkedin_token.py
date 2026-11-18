@@ -14,7 +14,7 @@ from dotenv import load_dotenv, set_key
 load_dotenv()
 
 CLIENT_ID = os.getenv("LINKEDIN_CLIENT_ID", "789vphsmjbyieggg")
-CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET", "WPL_AP1.vNlRPfCQT4AYbRut.D5zKoQ==")
+CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET", "WPL_AP1.vNlRPfCQT4AYbRut.D5zKoQ==123")
 REDIRECT_URI = "http://localhost:8080/callback"
 SCOPE = "openid profile email w_member_social"
 ENV_FILE = ".env"
